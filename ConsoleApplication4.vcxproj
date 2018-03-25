@@ -150,8 +150,10 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="hash.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hash.cpp" />
     <ClCompile Include="Searchwords.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
